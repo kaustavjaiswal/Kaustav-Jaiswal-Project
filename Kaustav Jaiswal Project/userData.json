@@ -1,0 +1,103 @@
+[
+  	{
+    "Name":"John Doe",
+    "Address":"America",
+    "Gender":"Male",
+    "Dob":"1/1/1",
+    "Score":"96%",
+    "FathersName":"Man Doe",
+    "Attendance":"99%",
+    "FeePaid":"Yes"
+    },
+    {
+    "Name":"Mary Jane",
+    "Address":"America",
+    "Gender":"Female",
+    "Dob":"2/2/2",
+    "Score":"50%",
+    "FathersName":"Harry Jane",
+    "Attendance":"30%",
+    "FeePaid":"No"
+    },
+    {
+    "Name":"Harry Potter",
+    "Address":"Hogwarts",
+    "Gender":"Male",
+    "Dob":"3/3/3",
+    "Score":"99%",
+    "FathersName":"James Potter",
+    "Attendance":"100%",
+    "FeePaid":"Yes"    
+    },
+    {
+    "Name":"Sherlock Holmes",
+    "Address":"London",
+    "Gender":"Male",
+    "Dob":"4/4/4",
+    "Score":"99.9%",
+    "FathersName":"Daddy Holmes",
+    "Attendance":"100%",
+    "FeePaid":"No"
+    },
+    {
+    "Name":"Sheldon Cooper",
+    "Address":"America",
+    "Gender":"Male",
+    "Dob":"5/5/5",
+    "Score":"100%",
+    "FathersName":"Crazy Cooper",
+    "Attendance":"100%",
+    "FeePaid":"No"
+    },
+    {
+    "Name":"Leonard Hoffstader",
+    "Address":"India",
+    "Gender":"Male",
+    "Dob":"6/6/6",
+    "Score":"96.5%",
+    "FathersName":"Father Hoffstader",
+    "Attendance":"100%",
+    "FeePaid":"No"
+    },
+    {
+    "Name":"Bunny",
+    "Address":"India",
+    "Gender":"Male",
+    "Dob":"7/7/7",
+    "Score":"95%",
+    "FathersName":"Sunny",
+    "Attendance":"96%",
+    "FeePaid":"Yes"
+    },
+    {
+    "Name":"Sweety",
+    "Address":"India",
+    "Gender":"Male",
+    "Dob":"8/8/8",
+    "Score":"96%",
+    "FathersName":"Big Man",
+    "Attendance":"99%",
+    "FeePaid":"No"
+    },
+    {
+    "Name":"Hell",
+    "Address":"China",
+    "Gender":"Male",
+    "Dob":"9/9/9",
+    "Score":"96%",
+    "FathersName":"In a Shell",
+    "Attendance":"99%",
+    "FeePaid":"Yes"
+    },
+    {
+    "Name":"Kaustav",
+    "Address":"India",
+    "Gender":"Male",
+    "Dob":"6/12/1994",
+    "Score":"96.7%",
+    "FathersName":"Navin",
+    "Attendance":"97%",
+    "FeePaid":"Yes"
+    }
+    
+]

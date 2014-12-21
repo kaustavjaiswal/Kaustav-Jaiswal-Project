@@ -3,15 +3,6 @@ $(document).ready(function()
 
 	var user=sessionStorage.getItem('UserLoggedOn');
 	console.log(user);
-	var key="";
-	var Address="";
-	var Attendance="";
-	var Dob="";
-	var FathersName="";
-	var FeePaid="";
-    var Gender="";
-    var Name="";
-    var Score="";
 
 	$(".name").append(user);
 
@@ -24,14 +15,31 @@ $(document).ready(function()
 	$(".Attendance").append(Attendance);
 
 	Address=snapshot.child('Address').val();
+	$(".Address").append(Address);
 
 	Dob=snapshot.child('Dob').val();
 	$(".Dob").append(Dob);
+
+	Email=snapshot.child('Email').val();
+	$(".Email").append(Email);
+
+	Numbers=snapshot.child('Number').val();
+	$(".Phone").append(Numbers);
 
 	FathersName=snapshot.child('FathersName').val();
 	$(".FathersName").append(FathersName);
 
 	FeePaid=snapshot.child('FeePaid').val();
+	if(FeePaid.localeCompare("Yes")!=-1)
+	{
+		$(".feesCheck").addClass("fa fa-check-square-o")
+	}
+	else
+	{
+		$(".feesCheck").addClass("fa fa-bolt")
+	}
+	$(".feesCondition").append(FeePaid);
+
 
     Gender=snapshot.child('Gender').val();
     $(".Gender").append(Gender);
